@@ -1,0 +1,5 @@
+config/local.neon
+.idea
+docker
+vendor
+temp/cache

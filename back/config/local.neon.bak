@@ -1,0 +1,7 @@
+parameters:
+
+
+database:
+	dsn: 'mysql:host=mysql;dbname=rozhlas'
+	user: root
+	password: root

@@ -1,0 +1,11 @@
+<div class="login">
+    <div n:foreach="$flashes as $flash" n:class="flash, $flash->type">{$flash->message}</div>
+    <h2>Prihlásiť sa</h2>
+    <form n:name="loginForm">
+        <label for="email">Nick</label>
+        <input n:name="nick" class="nick" id="nick" placeholder="Zadajte nick...">
+        <label for="password">Heslo</label>
+        <input n:name="password" class="password" id="password" placeholder="Zadajte Heslo...">
+        <input n:name="submit" class="submit" value="Prihlásiť sa">
+    </form>
+</div>

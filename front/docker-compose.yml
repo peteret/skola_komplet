@@ -1,0 +1,20 @@
+version: '3.8'
+services:
+  www:
+    privileged: true
+    build: .
+    ports:
+      - 80:80
+      - 443:443
+    volumes:
+      - ./:/var/www/
+      - ./www:/var/www/html
+      - ./site-enabled:/etc/apache2/sites-enabled
+      - ./docker/log:/var/logs
+      - ./docker/ssl:/etc/apache2/ssl
+      - /Applications/XAMPP/xamppfiles/htdocs/incorp/docker
+    networks:
+      - net
+networks:
+  net:
+    driver: bridge

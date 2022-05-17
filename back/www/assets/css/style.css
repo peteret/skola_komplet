@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,200;1,400;1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* General */
+
+h3 {
+    font-weight: unset;
+    color: white;
+    font-size: 22px;
+}
+/* Navbar */
+.navbar{
+    background-color: #00A9FF;
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+}
+.navbar ul li{
+    list-style: none;
+    position: relative;
+    transition: 0.2s;
+    /*border: 2px salmon solid;*/
+}
+/*.navbar ul li:hover:after{*/
+/*    content: '';*/
+/*    background-color: #000;*/
+/*    width: 100%;*/
+/*    height: 5px;*/
+/*    position: absolute;*/
+/*    bottom: 0;*/
+/*    left: 0;*/
+/*}*/
+.navbar ul li:not(:last-child,:first-child):hover{
+    margin-bottom: 8px;
+}
+
+/*.navbar ul li:hover{*/
+
+/*}*/
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 19px;
+}
+.navbar ul li a img{
+    width: 100px;
+}
+.navbar ul li a span{
+    font-size: 40px;
+}
+.navbar ul .login{
+    background-color: rgba(0,0,0,0.2);
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #00A9FF;
+    height: 400px;
+    /*position: absolute;*/
+    /*bottom: 0;*/
+    width: 100%;
+    background-image: url("../img/logo.png");
+    background-position: center;
+    background-size: 30%;
+    background-repeat: no-repeat;
+}
+
+.sponzori {
+    margin-top: 5%;
+    float: left;
+    color: white;
+    text-align: center;
+    margin-left: 10%;
+    font-size: 22px;
+}
+
+.sponzori h3 {
+    font-size: 30px;
+}
+
+.sponzori p {
+    line-height: 40px;
+}
+
+.footerLogin {
+    float: right;
+    margin-right: 10%;
+    text-align: center;
+}
+
+.footerLoginButton {
+    padding: 10px;
+    border-style: none;
+    border-radius: 10px;
+    background-color: #0087cc;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.footerLoginButton a {
+    text-decoration: none;
+    color: white;
+    float: bottom
+;
+}
+
+.subscribeUs {
+    background-color: #0087cc;
+    border-style: none;
+    font-size: 20px;
+    color: white;
+}
+
+
+.newsletters {
+    margin-top: 15%;
+}
+
+.newsletters input {
+    margin-top: 5%;
+    padding: 5px;
+    border-radius: 10px;
+    outline: none;
+}
+
+::placeholder {
+    color: rgba(255,255,255,0.71);
+}
+
+.socials {
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-bottom: 20%;
+}
+
+.socials a {
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.copyAndTeam {
+    text-align: center;
+    width: 100%;
+    bottom: 2%;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 17px;
+    color: white;
+}
+
+.teamMembers {
+    text-align: center;
+    font-size: 12px;
+    color: white;
+}
+
+/*HOMEPAGE*/
+
+
+/*CONTACT*/
+

@@ -1,0 +1,10 @@
+services:
+	- App\Router\RouterFactory::createRouter
+
+search:
+    forms:
+        in: %appDir%/Model/Form
+    model:
+        in: %appDir%/Model
+    repository:
+        in: %appDir%/Model/Repository
